@@ -1,2 +1,5 @@
 Linia z galezi test
 Linia z galezi test_2
+commit1
+commit2
+commit3
