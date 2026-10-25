@@ -3,7 +3,6 @@ class Student:
         self.name = name
         self.marks = marks
 
-    @property
     def is_passed(self) -> bool:
         return sum(self.marks) / len(self.marks) > 50
 

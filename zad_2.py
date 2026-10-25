@@ -160,4 +160,3 @@ order2 = Order(employee2, student2, [book3, book4], "2024-06-02")
 print(order1)
 print()
 print(order2)
-# pol english pol polsih pierdolish
