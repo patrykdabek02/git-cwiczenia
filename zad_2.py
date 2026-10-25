@@ -1,4 +1,4 @@
-def mnozenie(x: int, y: int) -> str:
+def mnozenie(x: int, y: int) -> int:
     wynik = x * y
     return wynik
 

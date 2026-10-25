@@ -1,7 +1,7 @@
-def czyZawiera(x: list, z: int) -> bool:
+def czyZawiera(x: list[int], z: int) -> bool:
     return z in x
 
 
-x = range(1, 10)
-z = 7
-print(czyZawiera(x, z))
+x = list(range(1, 10))
+print(czyZawiera(x, 7))
+print(czyZawiera(x, 15))
