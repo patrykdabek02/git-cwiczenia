@@ -1,7 +1,7 @@
-def fullName (name:str, surname:str)->str:
+def fullName(name: str, surname: str) -> str:
     concat = name + " " + surname
-    return(f"Cześć {name} {surname}!")
+    return f"Cześć {name} {surname}!"
 
 
-greeting = fullName ("Patryk", "Dąbek")
+greeting = fullName("Patryk", "Dąbek")
 print(greeting)
