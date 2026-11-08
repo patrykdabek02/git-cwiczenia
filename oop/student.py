@@ -6,8 +6,5 @@ class Student:
     def is_passed(self) -> bool:
         return sum(self.marks) / len(self.marks) > 50
 
-
-anna = Student("Anna", [60, 70, 80])
-tom = Student("Tom", [40, 50, 60])
-print(anna.is_passed())
-print(tom.is_passed())
+    def __str__(self) -> str:
+        return f"{self.name} (oceny: {self.marks})"
